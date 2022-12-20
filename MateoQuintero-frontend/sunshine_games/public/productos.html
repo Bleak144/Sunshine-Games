@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+
+
+
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <title>Sunshine Games</title>
+  <link href="%PUBLIC_URL%/index.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+
+  <header class="main-header">
+
+    <div class="main-header__container">
+      <h1 class="main-header_title">SUNSHINE GAMES</h1>
+    </div>
+
+    <div class="main-header__container">
+
+      <input type="search" class="main-header__input" placeholder="Buscar aquí...">
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+
+    <div class="main-header__container">
+      <a href="" class="main-header__btn">
+        Carrito <i class="fa-solid fa-cart-shopping"></i></a>
+      <a href="" class="main-header__link"><i class="fa-solid fa-arrows-rotate"></i></a>
+      <a href="" class="main-header__link"><i class="fa-solid fa-circle-user"></i></a>
+      <a href="" class="main-header__link"><i class="fa-solid fa-heart"></i></a>
+    </div>
+    </div>
+  </header>
+
+  <div class="container container--flex">
+    <div class="main-header__container">
+
+
+      <span class="icon-menu fa-solid fa-bars" id="btn-menu"></span>
+      <nav class="main-nav" id="main-nav">
+        <ul class="menu">
+          <li class="menu__item"><a href="" class="menu__link">Inicio</a></li>
+          <li class="menu__item"><a href="" class="menu__link">Juegos</a></li>
+          <li class="menu__item"><a href="" class="menu__link">Tarjetas regalos</a></li>
+          <li class="menu__item"><a href="" class="menu__link">Noticias</a></li>
+          <li class="menu__item"><a href="" class="menu__link">Ayuda</a></li>
+        </ul>
+      </nav>
+
+    </div>
+
+
+    <div class="container-slider">
+      <div class="slider" id="slider">
+        <div class="slider__section">
+          <img src="https://cdn.akamai.steamstatic.com/steam/apps/638970/capsule_616x353.jpg?t=1603131593"
+            class="slider__img">
+          <div class="slider__content">
+            <h2 class="slider__title">Colección Yakuza</h2>
+            <p class="slider__txt">A real Yakuza plays with a gamepad.</p>
+            <a href="" class="slider__link">VER COLECCION</a>
+          </div>
+        </div>
+        <div class="slider__section">
+          <img src="https://i.blogs.es/e3864d/starwars/1366_521.jpeg" class="slider__img">
+          <div class="slider__content">
+            <h2 class="slider__title">Colección Star Wars</h2>
+            <p class="slider__txt">May the 4th be with you.</p>
+            <a href="" class="slider__link">VER COLECCION</a>
+          </div>
+        </div>
+        <div class="slider__section">
+          <img src="https://i.redd.it/yufz0vaq4e761.gif" class="slider__img">
+          <div class="slider__content">
+
+            <a href="" class="slider__link">COMPRAR</a>
+          </div>
+        </div>
+        <div class="slider__section">
+          <img src="https://c.tenor.com/61H5oqOfK44AAAAC/payday-the-heist-pdth.gif" class="slider__img">
+          <div class="slider__content">
+
+            <a href="" class="slider__link">COMPRAR</a>
+          </div>
+        </div>
+        <div class="slider__section">
+          <img src="https://i.blogs.es/27a7c9/cookie-clicker-copia/1366_2000.jpeg" class="slider__img">
+          <div class="slider__content">
+
+            <a href="" class="slider__link">COMPRAR</a>
+          </div>
+        </div>
+        <div class="slider__section">
+          <img src="https://fondosmil.com/fondo/95333.jpg" class="slider__img">
+          <div class="slider__content">
+            <h2 class="slider__title">Colección Resident Evil</h2>
+            <p class="slider__txt">Biohazard games</p>
+            <a href="" class="slider__link">VER COLECCION</a>
+          </div>
+        </div>
+      </div>
+      <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+      <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+    </div>
+
+    <main class="main">
+      <div class="container">
+        <h2>Recomendaciones para ti</h2>
+        <section class="container-products">
+
+          <div class="product">
+            <img src="https://i.ytimg.com/vi/Iy72-R0w9Q4/maxresdefault.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__tittle">Call of Duty: Black Ops 3</h3>
+              <span class="product__price">100.000 COP</span>
+            </div>
+            <a href="" class="product__icon"><i class=" fa-solid fa-heart-circle-plus"></i></a>
+          </div>
+          <div class="product">
+            <img src="https://codigoespagueti.com/wp-content/uploads/2022/05/Fall-Guys-todas-las-consolas.jpg" alt=""
+              class="product__img">
+            <div class="product__description">
+              <h3 class="product__tittle">Fall Guys: Ultimate Knockout</h3>
+              <span class="product__price">10.000 COP</span>
+            </div>
+            <a href="" class="product__icon"><i class=" fa-solid fa-heart-circle-plus"></i></a>
+          </div>
+          <div class="product">
+            <img src="https://pbs.twimg.com/media/DVH7z9ZVQAArn_T.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__tittle">Dead Island Definitive Edition</h3>
+              <span class="product__price">30.000 COP</span>
+            </div>
+            <a href="" class="product__icon"><i class=" fa-solid fa-heart-circle-plus"></i></a>
+          </div>
+          <div class="product">
+            <img
+              src="https://cdn-ext.fanatical.com/production/product/1280x720/deb92e3e-76fb-4d54-abfb-202612c3fcf7.jpeg"
+              alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__tittle">Yakuza Kiwami</h3>
+              <span class="product__price">35.000 COP</span>
+            </div>
+            <a href="" class="product__icon"><i class=" fa-solid fa-heart-circle-plus"></i></a>
+          </div>
+
+        </section>
+      </div>
+
+      <div class="container-editor">
+        <div class="editor__item">
+          <img src="https://c.tenor.com/upNxK5-RrCAAAAAd/shisui-itachi.gif" alt="" class="editor__img">
+          <p class="editor__circle">Popular games picked by people.</p>
+        </div>
+        <div class="editor__item">
+          <img
+            src="https://64.media.tumblr.com/c7f8d187aae347509f876bc263555dac/3848d80aeae98844-bf/s400x600/4a72b45291fe9dc02ccc6bd1676b45c2160fd0f6.gifv"
+            alt="" class="editor__img">
+          <p class="editor__circle">Best free to play games.</p>
+        </div>
+
+      </div>
+
+    </main>
+
+    <footer class="main-footer">
+      <div class="footer__section">
+        <h2 class="footer__title">Sobre Sunshine</h2>
+        <a href="" class="footer__link">Sobre nosotros</a>
+        <a href="" class="footer__link">Contáctanos</a>
+        <a href="" class="footer__link">Empleo</a>
+      </div>
+      <div class="footer__section">
+        <h2 class="footer__title">Comprar</h2>
+        <a href="" class="footer__link">Cómo comprar</a>
+        <a href="" class="footer__link">Lista de juegos</a>
+        <a href="" class="footer__link">Colecciones</a>
+      </div>
+      <div class="footer__section">
+        <h2 class="footer__title">Ayuda</h2>
+        <a href="" class="footer__link">FAQ</a>
+        <a href="" class="footer__link">Como activar el juego</a>
+        <a href="" class="footer__link">Crear un ticket</a>
+      </div>
+      <div class="footer__section">
+        <h2 class="footer__title">Comunidad</h2>
+        <a href="" class="footer__link">Contáctanos</a>
+        <a href="" class="footer__link">Sorteos</a>
+        <a href="" class="footer__link">Convierte en afiliado</a>
+      </div>
+      <div class="footer__section">
+        <h2 class="footer__title">Siguenos</h2>
+        <ul class="social-icons">
+          <a href="" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+          <a href="" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+          <a href="" class="discord"><i class="fa-brands fa-discord"></i></a>
+          <a href="" class="instagram"><i class="fa-brands fa-instagram"></i></i></a>
+        </ul>
+      </div>
+      <p class="copy">Copyright © 2022 Sunshine Games. Todos los derechos reservados. Medellín, República de Colombia
+        Términos y Condiciones, Aviso de Privacidad, Preferencias de las cookies.</p>
+        
+    </footer>
+
+</body>
+
+</html>
